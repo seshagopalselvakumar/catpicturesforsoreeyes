@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+
+.navbar-brand {
+    margin: 0;
+}
+
+.name-anchor {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.name-anchor:hover {
+    text-decoration: none;
+    color: rgb(236, 236, 236);
+    text-shadow: 0px 0px 3px rgb(235, 235, 235);
+}
+
+
+.card-img-top {
+    max-width: 60%;
+    max-height: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+    .card-img-top {
+        max-width: 80%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .card-img-top {
+        max-width: 100%;
+    }
+}
+
+.container {
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
+}
+
+.card {
+    padding: 10px;
+}
+
+.card-img-top {
+    display: none;
+}
+
+.fa-heart {
+    color: rgb(178, 34, 34);
+}
+
+.fa-code {
+    color: rgb(5, 149, 5);
+}
